@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void swapValues(int *p1, int *p2) {
+void swapValues(int* p1, int* p2) {
   int temp = *p1;
   *p1 = *p2;
   *p2 = temp;
@@ -39,8 +39,8 @@ void reverseArray(int *arr, int size) {
   }
 }
 
-int *createArray(int size) {
-  int *arr = new int[size];
+int* createArray(int size) {
+  int* arr = new int[size];
   return arr;
 }
 

@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+#include <regex>
 using namespace std;
 
 double series(int n, double r) {
@@ -17,7 +19,7 @@ double series(int n, double r) {
 int main() {
     int n;
     double r;
-    
+
     cout << "Enter n: ";
     cin >> n;
     
